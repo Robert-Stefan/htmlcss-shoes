@@ -45,7 +45,6 @@ html {
 .full-section {
     position: relative;
     height: 100vh;
-    background-color: red;
 
 }
 
@@ -59,7 +58,29 @@ html {
     text-align: center;
 }
 
-.full-section .content .title {
+.section-intro .content .title {
     font-size: 50px;
-    color: yellow
+    color: yellow;
+}
+
+.section-middle .content .title {
+    font-size: 50px;
+    color: yellow;
+}
+
+.section-end .content .title {
+    font-size: 50px;
+    color: green;
+}
+
+#intro {
+    background-color: red;
+}
+
+#middle {
+    background-color: green;
+}
+
+#end {
+    background-color: yellow;
 }
